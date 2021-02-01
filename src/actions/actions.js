@@ -1,11 +1,11 @@
-import * as actions from './actionTypes';
+import * as action from './actionTypes';
 
-export const addFeature = newFeature => ({
-  type: actions.ADD_FEATURE,
-  payload: newFeature
+export const addFeature = feature => ({
+  type: action.ADD_FEATURE,
+  payload: feature
 })
 
-export const removeFeature = removeFeature => ({
-  type: actions.REMOVE_FEATURE,
-  payload: removeFeature
+export const removeFeature = feature => ({
+  type: action.REMOVE_FEATURE,
+  payload: feature
 })

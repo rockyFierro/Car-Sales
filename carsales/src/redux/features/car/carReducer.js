@@ -16,8 +16,8 @@ const initialState = {
   ]
 };
 
-export const carReducer(initialState,action){
+export const carReducer = (state,action) => {
   switch(action.type){
-    default: {  return initialState}
+    default: {  return state}
   }
 }

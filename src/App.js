@@ -4,7 +4,7 @@ import AddedFeatures from './components/AddedFeatures';
 import AdditionalFeatures from './components/AdditionalFeatures';
 import Total from './components/Total';
 import { connect } from 'react-redux';
-import { addFeature, removeFeature} from  './actions/actions'
+import { addFeature, removeFeature} from  './redux/features/car/actions/actions'
 
 const mapStateToProps = state => {
   return {
